@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">8Gate</string>
+    <string name="invalid_date">Please Enter Valid Date</string>
+    <string name="invalid_weight">Please Enter Valid Weight</string>
+    <string name="invalid_height">Please Enter Valid Height</string>
+    <string name="invalid_body">Enter Valid Body Part Name</string>
+    <string name="invalid_mes">Enter Valid Measurement</string>
+    <string name="invalid_name">Enter Valid Name</string>
+    <string name="invalid_rep">Enter Valid Rep Count</string>
+    <string name="invalid_turns">Enter Valid Turn Count</string>
+    <string name="invalid_pro">Enter Valid Protien Count</string>
+    <string name="invalid_meal">Enter Valid Meal Type</string>
+    <string name="invalid_mealName">Enter Valid Meal Name</string>
+</resources>

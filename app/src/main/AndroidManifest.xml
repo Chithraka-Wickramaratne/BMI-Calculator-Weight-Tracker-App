@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WeightTracker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeightTracker">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"/>
+
+        <activity
+            android:name=".Calorie_calculator"
+            android:exported="true"
+            android:label="Calories Calculator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProteinCal"
+            android:exported="true"
+            android:label="Protein Calculator"
+            android:parentActivityName=".meal" />
+        <activity
+            android:name=".LeanBodyMassCalculator"
+            android:exported="true"
+            android:parentActivityName=".body" />
+        <activity
+            android:name=".bmical"
+            android:exported="true"
+            android:label="Calculate BMI"
+            android:parentActivityName=".habit" />
+        <activity
+            android:name=".updateweight"
+            android:exported="true"
+            android:label="Update Weight"
+            android:parentActivityName=".habit" />
+        <activity
+            android:name=".addweight"
+            android:exported="true"
+            android:label="Add Weight"
+            android:parentActivityName=".habit" />
+        <activity
+            android:name=".meal"
+            android:exported="true"
+            android:label="Meal Planner" />
+        <activity
+            android:name=".body"
+            android:exported="true"
+            android:label="Body Measurements" />
+
+        <activity
+            android:name=".habit"
+            android:exported="true"
+            android:label="Habit Tracker">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Exercise Tracker"/>
+
+    </application>
+
+</manifest>
